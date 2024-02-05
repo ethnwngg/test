@@ -13,8 +13,8 @@ public class TaskA {
 
         String commuter, onCampusHousing, offCampusHousing;
         commuter = "20,582";
-        onCampusHousing = "28,108";
-        offCampusHousing = "26,584";
+        onCampusHousing = "28,110";
+        offCampusHousing = "26,904"; //new numbers
 
         Scanner keyboard = new Scanner(System.in);
 
@@ -23,9 +23,9 @@ public class TaskA {
         System.out.print("Please enter your room and board option (1 = commuter, 2 = on-campus housing and 3 = off-campus housing): ");
         number = keyboard.nextInt();
 
-        double commuterTotal = 20584;
+        double commuterTotal = 20582.0;
         double commuterPerMonth = commuterTotal / 12;
-        double onCampusHousingTotal = 28109.0;
+        double onCampusHousingTotal = 28108.0;
         double onCampusHousingPerMonth = onCampusHousingTotal / 12;
         double offCampusHousingTotal = 26584.0;
         double offCampusHousingPerMonth = offCampusHousingTotal / 12;

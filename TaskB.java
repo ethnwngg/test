@@ -28,7 +28,7 @@ public class TaskB {
         System.out.println("Please enter your room and board option (1 = commuter, 2 = on-campus housing and 3 = off-campus housing):");
         number = keyboard.nextInt();
 
-        System.out.println("Please enter your hourly rate:");
+        System.out.println("Please enter your hourly rate:"); //Test
         hourlyRate = keyboard.nextDouble();
 
         double totalSupport = familySupport + financialAid;
@@ -36,13 +36,13 @@ public class TaskB {
         double commuterHoursNeeded = commuter / 30;
         double onCampusHousing = (28108.0 - totalSupport) / 16;
         double onCampusHousingHoursNeeded = onCampusHousing / 30;
-        double offCampusHousing = (26584.0 - totalSupport) / 10;
+        double offCampusHousing = (26584.0 - totalSupport) / 16;
         double offCampusHousingHoursNeeded = offCampusHousing / 30;
 
         switch (number)
         {
             case 1:
-                if(commuterHoursNeeded <= 20) //Commuter hours
+                if(commuterHoursNeeded <= 12)
                 {
                     String formatCommuter = String.format("You need to work %.2f hours per week " +
                     "based on the information entered.", commuterHoursNeeded);
