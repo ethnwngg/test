@@ -42,7 +42,7 @@ public class TaskB {
         switch (number)
         {
             case 1:
-                if(commuterHoursNeeded <= 20)
+                if(commuterHoursNeeded <= 20) //jjk
                 {
                     String formatCommuter = String.format("You need to work %.2f hours per week " +
                     "based on the information entered.", commuterHoursNeeded);
