@@ -14,7 +14,7 @@ public class TaskA {
         String commuter, onCampusHousing, offCampusHousing;
         commuter = "20,582";
         onCampusHousing = "28,110";
-        offCampusHousing = "26,904"; //new numbers
+        offCampusHousing = "26,590"; //new numbers
 
         Scanner keyboard = new Scanner(System.in);
 
