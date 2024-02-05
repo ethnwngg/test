@@ -51,3 +51,6 @@ public class TaskA {
         System.out.println("Thanks for using the program!");
     }
 }
+//test
+// github
+//its ok
