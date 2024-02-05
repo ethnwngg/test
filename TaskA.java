@@ -13,8 +13,8 @@ public class TaskA {
 
         String commuter, onCampusHousing, offCampusHousing;
         commuter = "20,582";
-        onCampusHousing = "28,108";
-        offCampusHousing = "26,584";
+        onCampusHousing = "28,110";
+        offCampusHousing = "26,584"; // Test
 
         Scanner keyboard = new Scanner(System.in);
 
@@ -51,6 +51,3 @@ public class TaskA {
         System.out.println("Thanks for using the program!");
     }
 }
-//test
-// github
-//its ok
