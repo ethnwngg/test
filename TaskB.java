@@ -36,13 +36,13 @@ public class TaskB {
         double commuterHoursNeeded = commuter / 30;
         double onCampusHousing = (28108.0 - totalSupport) / 16;
         double onCampusHousingHoursNeeded = onCampusHousing / 30;
-        double offCampusHousing = (26584.0 - totalSupport) / 16;
+        double offCampusHousing = (26584.0 - totalSupport) / 10;
         double offCampusHousingHoursNeeded = offCampusHousing / 30;
 
         switch (number)
         {
             case 1:
-                if(commuterHoursNeeded <= 20) //jjk
+                if(commuterHoursNeeded <= 20) //Commuter hours
                 {
                     String formatCommuter = String.format("You need to work %.2f hours per week " +
                     "based on the information entered.", commuterHoursNeeded);
